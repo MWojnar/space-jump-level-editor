@@ -1,0 +1,54 @@
+{
+  "PlayerGravity": 0.5,
+  "PlayerMaxJumpHoldFrames": 23,
+  "PlayerJumpSpeed": 5.0,
+  "PlayerHorSpeed": 4.0,
+  "PlayerHorSpeedNoBoard": 3.0,
+  "PlayerInvincibilityFrames": 120,
+  "PlayerStunFrames": 60,
+  "Phases": [
+    {
+      "TriggerAtThisManySeconds": 0.0,
+      "PumpkinGenFactor": 0.002,
+      "TPGenFactor": 0.002,
+      "HouseGenFactor": 0.4,
+      "HouseThrowDoubleFactor": 0.0
+    },
+    {
+      "TriggerAtThisManySeconds": 15.0,
+      "PumpkinGenFactor": 0.0035,
+      "TPGenFactor": 0.0035,
+      "HouseGenFactor": 0.6,
+      "HouseThrowDoubleFactor": 0.0
+    },
+    {
+      "TriggerAtThisManySeconds": 30.0,
+      "PumpkinGenFactor": 0.005,
+      "TPGenFactor": 0.005,
+      "HouseGenFactor": 0.8,
+      "HouseThrowDoubleFactor": 0.1
+    },
+    {
+      "TriggerAtThisManySeconds": 45.0,
+      "PumpkinGenFactor": 0.007,
+      "TPGenFactor": 0.007,
+      "HouseGenFactor": 1.0,
+      "HouseThrowDoubleFactor": 0.5
+    },
+    {
+      "TriggerAtThisManySeconds": 60.0,
+      "PumpkinGenFactor": 0.01,
+      "TPGenFactor": 0.01,
+      "HouseGenFactor": 1.0,
+      "HouseThrowDoubleFactor": 1.0
+    }
+  ],
+  "FinalPhaseIntensityFactor": 0.00001,
+  "CandyInitVelocity": -0.5,
+  "CandyTermVelocity": 2.0,
+  "CandyGravity": 0.15,
+  "TPSpeed": -1.75,
+  "BoardSpeed": 4.0,
+  "BoardHangTime": 15,
+  "BoardGravity": 0.3
+}
